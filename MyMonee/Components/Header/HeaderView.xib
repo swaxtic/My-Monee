@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="MyMonee" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="TLG-Kl-SXI"/>
+                <outlet property="headerRightButton" destination="YWV-jj-SK5" id="HV3-Jm-90J"/>
+                <outlet property="headerText" destination="hrM-xo-bdc" id="1wp-2G-8aW"/>
+                <outlet property="headerUserName" destination="PJQ-j0-P7X" id="vMB-Co-dHh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJQ-j0-P7X" userLabel="Label Name">
+                    <rect key="frame" x="16" y="40" width="0.0" height="1"/>
+                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                    <color key="textColor" red="0.50980392156862742" green="0.50980392156862742" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrM-xo-bdc">
+                    <rect key="frame" x="16" y="0.0" width="65.5" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="S6D-su-TwW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                    <color key="textColor" red="0.30980392156862746" green="0.30980392156862746" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWV-jj-SK5">
+                    <rect key="frame" x="362" y="-1" width="36" height="36"/>
+                    <color key="backgroundColor" red="0.31372549019607843" green="0.41176470588235292" blue="0.72156862745098038" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="Cr5-IG-9pv"/>
+                        <constraint firstAttribute="height" constant="36" id="fHP-pD-St0"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="DeF-TI-jMF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="hrM-xo-bdc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4g4-Mw-ke4"/>
+                <constraint firstItem="hrM-xo-bdc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Ajq-RZ-GMU"/>
+                <constraint firstItem="PJQ-j0-P7X" firstAttribute="leading" secondItem="hrM-xo-bdc" secondAttribute="leading" id="CHO-Oc-fau"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YWV-jj-SK5" secondAttribute="trailing" constant="16" id="GK7-yQ-IGM"/>
+                <constraint firstItem="YWV-jj-SK5" firstAttribute="centerY" secondItem="hrM-xo-bdc" secondAttribute="centerY" id="cgU-7z-3QS"/>
+                <constraint firstItem="PJQ-j0-P7X" firstAttribute="top" secondItem="hrM-xo-bdc" secondAttribute="bottom" constant="6" id="poB-LE-eto"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="PJQ-j0-P7X" secondAttribute="bottom" constant="24" id="sp1-ot-xvt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="111.59420289855073" y="-125.89285714285714"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddImpianViewController" customModule="MyMonee" customModuleProvider="target">
+            <connections>
+                <outlet property="amountTextField" destination="pos-h1-umA" id="fZZ-Hj-VN6"/>
+                <outlet property="headerComponent" destination="HSr-xW-zud" id="uNR-dj-4ym"/>
+                <outlet property="saveButtonComponent" destination="IJq-To-Bga" id="2X5-lD-wyZ"/>
+                <outlet property="titleTextField" destination="Shg-Wy-a9C" id="eup-oJ-tS4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HSr-xW-zud" userLabel="HeaderComponent" customClass="HeaderWithBack" customModule="MyMonee" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="16" width="375" height="65"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="lIY-bW-Z5M"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCa-jp-olQ" userLabel="TitleFieldComponent">
+                    <rect key="frame" x="0.0" y="101" width="375" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Judul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nD-5H-Ihz">
+                            <rect key="frame" x="16" y="0.0" width="34.5" height="20"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                            <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Masukkan Judul" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Shg-Wy-a9C">
+                            <rect key="frame" x="18" y="24" width="339" height="36"/>
+                            <color key="tintColor" name="Dark Text"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="bfY-sv-2fa"/>
+                            </constraints>
+                            <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="ANE-mB-Ynw"/>
+                        <constraint firstItem="Shg-Wy-a9C" firstAttribute="top" secondItem="4nD-5H-Ihz" secondAttribute="bottom" constant="4" id="UfP-hH-Csd"/>
+                        <constraint firstAttribute="bottom" secondItem="Shg-Wy-a9C" secondAttribute="bottom" id="VHE-xi-hB0"/>
+                        <constraint firstItem="4nD-5H-Ihz" firstAttribute="leading" secondItem="tCa-jp-olQ" secondAttribute="leading" constant="16" id="Vgj-sT-Kmr"/>
+                        <constraint firstAttribute="trailing" secondItem="Shg-Wy-a9C" secondAttribute="trailing" constant="18" id="ipf-fv-OYV"/>
+                        <constraint firstItem="4nD-5H-Ihz" firstAttribute="top" secondItem="tCa-jp-olQ" secondAttribute="top" id="s21-YP-YkD"/>
+                        <constraint firstItem="Shg-Wy-a9C" firstAttribute="leading" secondItem="tCa-jp-olQ" secondAttribute="leading" constant="18" id="veV-xw-y8r"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDQ-iB-faO" userLabel="TargetFieldComponent">
+                    <rect key="frame" x="0.0" y="175" width="218.5" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Target Capaian (Rp)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CU-hk-cFm">
+                            <rect key="frame" x="16" y="0.0" width="123.5" height="19.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                            <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Masukkan Target" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pos-h1-umA">
+                            <rect key="frame" x="18" y="23.5" width="182.5" height="36.5"/>
+                            <color key="tintColor" name="Dark Text"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36.5" id="yEJ-Tb-0fD"/>
+                            </constraints>
+                            <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="pos-h1-umA" secondAttribute="bottom" id="0Cl-e1-TPT"/>
+                        <constraint firstItem="pos-h1-umA" firstAttribute="top" secondItem="1CU-hk-cFm" secondAttribute="bottom" constant="4" id="9hh-wU-PTh"/>
+                        <constraint firstAttribute="trailing" secondItem="pos-h1-umA" secondAttribute="trailing" constant="18" id="RiA-xJ-TkG"/>
+                        <constraint firstItem="pos-h1-umA" firstAttribute="leading" secondItem="xDQ-iB-faO" secondAttribute="leading" constant="18" id="UdT-ea-dWU"/>
+                        <constraint firstItem="1CU-hk-cFm" firstAttribute="top" secondItem="xDQ-iB-faO" secondAttribute="top" id="WDh-rM-fRQ"/>
+                        <constraint firstItem="1CU-hk-cFm" firstAttribute="leading" secondItem="xDQ-iB-faO" secondAttribute="leading" constant="16" id="YKK-cu-nY8"/>
+                        <constraint firstAttribute="height" constant="60" id="jhf-G8-HMC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJq-To-Bga" userLabel="ButtonComponent" customClass="ButtonView" customModule="MyMonee" customModuleProvider="target">
+                    <rect key="frame" x="18" y="620" width="339" height="43"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="5La-Bq-8QI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tCa-jp-olQ" firstAttribute="top" secondItem="HSr-xW-zud" secondAttribute="bottom" constant="20" id="2ds-01-2Dl"/>
+                <constraint firstItem="HSr-xW-zud" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="6dX-oe-ZYR"/>
+                <constraint firstItem="IJq-To-Bga" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="7Pf-CV-xYB"/>
+                <constraint firstItem="HSr-xW-zud" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8YQ-QY-Q3R"/>
+                <constraint firstItem="xDQ-iB-faO" firstAttribute="leading" secondItem="tCa-jp-olQ" secondAttribute="leading" id="91k-uD-4KM"/>
+                <constraint firstItem="tCa-jp-olQ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="COo-vC-vI8"/>
+                <constraint firstItem="HSr-xW-zud" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="KZN-gx-3vD"/>
+                <constraint firstItem="HSr-xW-zud" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="U1r-iN-gIL"/>
+                <constraint firstItem="xDQ-iB-faO" firstAttribute="top" secondItem="tCa-jp-olQ" secondAttribute="bottom" constant="14" id="ZA1-MT-I3t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IJq-To-Bga" secondAttribute="bottom" constant="4" id="iW4-LQ-IBX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IJq-To-Bga" secondAttribute="trailing" constant="18" id="o0c-ja-u5q"/>
+                <constraint firstItem="tCa-jp-olQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="vR2-8x-WZH"/>
+            </constraints>
+            <point key="canvasLocation" x="-4" y="49"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Dark Text">
+            <color red="0.31000000238418579" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

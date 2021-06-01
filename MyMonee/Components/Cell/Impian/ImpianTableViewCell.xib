@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImpianTableViewCell" customModule="MyMonee" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="KGk-i7-Jjw" customClass="ImpianTableViewCell" customModule="MyMonee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8aB-8C-BIV" userLabel="Cell View">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mv-5F-CCR">
+                                <rect key="frame" x="10" y="11" width="28.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sVW-uk-LT8">
+                                <rect key="frame" x="10" y="39.5" width="212" height="4"/>
+                                <color key="progressTintColor" red="0.31372549020000001" green="0.41176470590000003" blue="0.72156862749999995" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bottomtext" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40i-id-NdP">
+                                <rect key="frame" x="10" y="52" width="61" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="11"/>
+                                <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZC-UG-E9q" userLabel="Button Hapus">
+                                <rect key="frame" x="278" y="25.5" width="32" height="32"/>
+                                <state key="normal" image="Delete_Red"/>
+                                <connections>
+                                    <action selector="buttonHapusAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="g3f-HS-RGk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNc-09-8TY" userLabel="Button Selesai">
+                                <rect key="frame" x="234" y="25.5" width="32" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="Done_Grey"/>
+                                <connections>
+                                    <action selector="buttonSelesaiAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zOG-2b-Ww0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sVW-uk-LT8" firstAttribute="centerY" secondItem="8aB-8C-BIV" secondAttribute="centerY" id="0dU-IG-dW7"/>
+                            <constraint firstItem="WNc-09-8TY" firstAttribute="centerY" secondItem="sVW-uk-LT8" secondAttribute="centerY" id="2MF-8p-SDF"/>
+                            <constraint firstAttribute="trailing" secondItem="rZC-UG-E9q" secondAttribute="trailing" constant="10" id="3T6-wH-q3S"/>
+                            <constraint firstItem="rZC-UG-E9q" firstAttribute="centerY" secondItem="WNc-09-8TY" secondAttribute="centerY" id="ARI-8B-AeO"/>
+                            <constraint firstItem="sVW-uk-LT8" firstAttribute="centerY" secondItem="8aB-8C-BIV" secondAttribute="centerY" id="J0Y-D8-Tvv"/>
+                            <constraint firstItem="sVW-uk-LT8" firstAttribute="leading" secondItem="0Mv-5F-CCR" secondAttribute="leading" id="JDA-Tg-uuz"/>
+                            <constraint firstItem="sVW-uk-LT8" firstAttribute="top" secondItem="0Mv-5F-CCR" secondAttribute="bottom" constant="10" id="Ml9-VV-E43"/>
+                            <constraint firstItem="40i-id-NdP" firstAttribute="leading" secondItem="0Mv-5F-CCR" secondAttribute="leading" id="TyO-e1-Zr1"/>
+                            <constraint firstItem="40i-id-NdP" firstAttribute="top" secondItem="sVW-uk-LT8" secondAttribute="bottom" constant="8.5" id="Yxm-5N-2WS"/>
+                            <constraint firstItem="0Mv-5F-CCR" firstAttribute="leading" secondItem="8aB-8C-BIV" secondAttribute="leading" constant="10" id="fTK-HA-Q94"/>
+                            <constraint firstItem="WNc-09-8TY" firstAttribute="leading" secondItem="sVW-uk-LT8" secondAttribute="trailing" constant="12" id="jxP-lz-wYj"/>
+                            <constraint firstItem="0Mv-5F-CCR" firstAttribute="top" secondItem="8aB-8C-BIV" secondAttribute="top" constant="11" id="pYI-pH-bAp"/>
+                            <constraint firstItem="rZC-UG-E9q" firstAttribute="leading" secondItem="WNc-09-8TY" secondAttribute="trailing" constant="12" id="x1H-rw-Wu9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8aB-8C-BIV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="NtQ-qx-6wy"/>
+                    <constraint firstAttribute="trailing" secondItem="8aB-8C-BIV" secondAttribute="trailing" id="Qqn-MI-YBh"/>
+                    <constraint firstItem="8aB-8C-BIV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UEL-Lr-paQ"/>
+                    <constraint firstAttribute="bottom" secondItem="8aB-8C-BIV" secondAttribute="bottom" constant="8" id="l62-J8-qqy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="buttonHapus" destination="rZC-UG-E9q" id="H9o-DD-VL8"/>
+                <outlet property="buttonSelesai" destination="WNc-09-8TY" id="V1y-PF-W7J"/>
+                <outlet property="impianBottomText" destination="40i-id-NdP" id="ZTb-Ek-8zm"/>
+                <outlet property="impianProgress" destination="sVW-uk-LT8" id="mSH-d8-826"/>
+                <outlet property="impianTitleLable" destination="0Mv-5F-CCR" id="Cek-pH-5wc"/>
+                <outlet property="tableViewCell" destination="8aB-8C-BIV" id="NsY-Rh-fr8"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="100.11160714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Delete_Red" width="32" height="32"/>
+        <image name="Done_Grey" width="32" height="32"/>
+    </resources>
+</document>

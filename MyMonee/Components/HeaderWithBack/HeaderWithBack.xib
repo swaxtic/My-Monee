@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderWithBack" customModule="MyMonee" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="XLD-1T-8NY" id="TfA-zB-FL6"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="d4x-pE-Tqe"/>
+                <outlet property="titleLabel" destination="CgT-Z6-Cca" id="mLR-LD-7UR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLD-1T-8NY">
+                    <rect key="frame" x="18" y="22.5" width="12" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                    <state key="normal" image="arrow_back_ios_24px"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="qK6-vc-hQf"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgT-Z6-Cca">
+                    <rect key="frame" x="44" y="22" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="Dark Text"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="CgT-Z6-Cca" firstAttribute="leading" secondItem="XLD-1T-8NY" secondAttribute="trailing" constant="14" id="Ns8-eZ-reu"/>
+                <constraint firstItem="CgT-Z6-Cca" firstAttribute="centerY" secondItem="XLD-1T-8NY" secondAttribute="centerY" id="Teq-qB-d9p"/>
+                <constraint firstItem="XLD-1T-8NY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Tqm-Co-h8I"/>
+                <constraint firstItem="XLD-1T-8NY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="iRu-lx-JKq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="111.59420289855073" y="-212.61160714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_back_ios_24px" width="12" height="20"/>
+        <namedColor name="Dark Text">
+            <color red="0.31000000238418579" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

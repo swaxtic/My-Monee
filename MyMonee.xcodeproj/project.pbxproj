@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3A246026443F0E009D0CBC /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A244E26443F0E009D0CBC /* Poppins-Italic.ttf */; };
+		FA3A246126443F0E009D0CBC /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A244F26443F0E009D0CBC /* Poppins-ThinItalic.ttf */; };
+		FA3A246226443F0E009D0CBC /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245026443F0E009D0CBC /* Poppins-Thin.ttf */; };
+		FA3A246326443F0E009D0CBC /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245126443F0E009D0CBC /* Poppins-SemiBoldItalic.ttf */; };
+		FA3A246426443F0E009D0CBC /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245226443F0E009D0CBC /* Poppins-ExtraLight.ttf */; };
+		FA3A246526443F0E009D0CBC /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245326443F0E009D0CBC /* Poppins-BoldItalic.ttf */; };
+		FA3A246626443F0E009D0CBC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245426443F0E009D0CBC /* Poppins-Medium.ttf */; };
+		FA3A246726443F0E009D0CBC /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245526443F0E009D0CBC /* Poppins-ExtraLightItalic.ttf */; };
+		FA3A246826443F0E009D0CBC /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245626443F0E009D0CBC /* Poppins-Light.ttf */; };
+		FA3A246926443F0E009D0CBC /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245726443F0E009D0CBC /* Poppins-MediumItalic.ttf */; };
+		FA3A246A26443F0E009D0CBC /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245826443F0E009D0CBC /* Poppins-ExtraBold.ttf */; };
+		FA3A246B26443F0E009D0CBC /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245926443F0E009D0CBC /* Poppins-Black.ttf */; };
+		FA3A246C26443F0E009D0CBC /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245A26443F0E009D0CBC /* Poppins-BlackItalic.ttf */; };
+		FA3A246D26443F0E009D0CBC /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245B26443F0E009D0CBC /* Poppins-SemiBold.ttf */; };
+		FA3A246E26443F0E009D0CBC /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245C26443F0E009D0CBC /* Poppins-LightItalic.ttf */; };
+		FA3A246F26443F0E009D0CBC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245D26443F0E009D0CBC /* Poppins-Bold.ttf */; };
+		FA3A247026443F0E009D0CBC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245E26443F0E009D0CBC /* Poppins-Regular.ttf */; };
+		FA3A247126443F0E009D0CBC /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A245F26443F0E009D0CBC /* Poppins-ExtraBoldItalic.ttf */; };
+		FA3A24FA2647DD88009D0CBC /* EmptyDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3A24F92647DD88009D0CBC /* EmptyDataView.xib */; };
+		FA3A24FD2647DE13009D0CBC /* EmptyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A24FC2647DE13009D0CBC /* EmptyDataView.swift */; };
+		FA806C3626550AAF00380FBB /* RupiahFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA806C3526550AAF00380FBB /* RupiahFormatter.swift */; };
+		FA806C392655127400380FBB /* DateIdFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA806C382655127400380FBB /* DateIdFormatter.swift */; };
+		FA806C7B2656308900380FBB /* TransactionServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA806C7A2656308900380FBB /* TransactionServices.swift */; };
+		FA806C802656312500380FBB /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA806C7F2656312500380FBB /* TransactionResponse.swift */; };
+		FA8BE031264F818800F76FB7 /* Impian.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BE030264F818800F76FB7 /* Impian.swift */; };
+		FA8BE036264F84BB00F76FB7 /* ImpianTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BE034264F84BB00F76FB7 /* ImpianTableViewCell.swift */; };
+		FA8BE037264F84BB00F76FB7 /* ImpianTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8BE035264F84BB00F76FB7 /* ImpianTableViewCell.xib */; };
+		FA8BE040264FB4DD00F76FB7 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BE03E264FB4DD00F76FB7 /* TransactionDetailViewController.swift */; };
+		FA8BE041264FB4DD00F76FB7 /* TransactionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8BE03F264FB4DD00F76FB7 /* TransactionDetailViewController.xib */; };
+		FA8BE046264FB9B400F76FB7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BE045264FB9B400F76FB7 /* Helper.swift */; };
+		FA928D1F264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA928D1D264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.swift */; };
+		FA928D20264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA928D1E264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.xib */; };
+		FA928D24264ED8E000E4B0B3 /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA928D23264ED8E000E4B0B3 /* TransactionHistory.swift */; };
+		FA9FA15626532B87001DD396 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FA15526532B87001DD396 /* UserData.swift */; };
+		FA9FA15A2653327B001DD396 /* ButtonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FA1592653327B001DD396 /* ButtonProtocol.swift */; };
+		FA9FA15F2654FA6A001DD396 /* ButtonCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FA15E2654FA6A001DD396 /* ButtonCellProtocol.swift */; };
+		FAAA3B1226507CE1005B2188 /* ImpianDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B1026507CE1005B2188 /* ImpianDetailViewController.swift */; };
+		FAAA3B1326507CE1005B2188 /* ImpianDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3B1126507CE1005B2188 /* ImpianDetailViewController.xib */; };
+		FAAA3B172650C008005B2188 /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3B162650C008005B2188 /* ButtonView.xib */; };
+		FAAA3B1E2650C578005B2188 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B1D2650C578005B2188 /* ButtonView.swift */; };
+		FAAA3B222650E82E005B2188 /* ButtonTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B212650E82E005B2188 /* ButtonTag.swift */; };
+		FAAA3B252650F6AA005B2188 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B242650F6AA005B2188 /* TransactionType.swift */; };
+		FAAA3B2C26511686005B2188 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B2A26511686005B2188 /* AddTransactionViewController.swift */; };
+		FAAA3B2D26511686005B2188 /* AddTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3B2B26511686005B2188 /* AddTransactionViewController.xib */; };
+		FAAA3B3126512435005B2188 /* HeaderWithBack.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3B3026512435005B2188 /* HeaderWithBack.xib */; };
+		FAAA3B342651245B005B2188 /* HeaderWithBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B332651245B005B2188 /* HeaderWithBack.swift */; };
+		FAAA3B4326515322005B2188 /* AddImpianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B4126515322005B2188 /* AddImpianViewController.swift */; };
+		FAAA3B4426515322005B2188 /* AddImpianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3B4226515322005B2188 /* AddImpianViewController.xib */; };
+		FAAA3B4B26515AD7005B2188 /* EditImpianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B4926515AD7005B2188 /* EditImpianViewController.swift */; };
+		FAAA3B4C26515AD7005B2188 /* EditImpianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3B4A26515AD7005B2188 /* EditImpianViewController.xib */; };
+		FAAA3B532651A773005B2188 /* EditTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3B512651A773005B2188 /* EditTransactionViewController.swift */; };
+		FAAA3B542651A773005B2188 /* EditTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3B522651A773005B2188 /* EditTransactionViewController.xib */; };
+		FAE5FBE8264D5CBD00227326 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5FBE6264D5CBD00227326 /* MainTabViewController.swift */; };
+		FAE5FBE9264D5CBD00227326 /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE5FBE7264D5CBD00227326 /* MainTabViewController.xib */; };
+		FAE5FBF5264D734300227326 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5FBF3264D734300227326 /* HomeViewController.swift */; };
+		FAE5FBF6264D734300227326 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE5FBF4264D734300227326 /* HomeViewController.xib */; };
+		FAE5FBFB264D758F00227326 /* ImpianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5FBF9264D758F00227326 /* ImpianViewController.swift */; };
+		FAE5FBFC264D758F00227326 /* ImpianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE5FBFA264D758F00227326 /* ImpianViewController.xib */; };
+		FAE5FC01264D75FF00227326 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5FBFF264D75FF00227326 /* ProfileViewController.swift */; };
+		FAE5FC02264D75FF00227326 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE5FC00264D75FF00227326 /* ProfileViewController.xib */; };
+		FAE5FC0D264D803D00227326 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE5FC0C264D803D00227326 /* HeaderView.xib */; };
+		FAE5FC10264D805300227326 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5FC0F264D805300227326 /* HeaderView.swift */; };
+		FAE5FC1F264E603600227326 /* CashFlowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5FC1D264E603600227326 /* CashFlowCollectionViewCell.swift */; };
+		FAE5FC20264E603600227326 /* CashFlowCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE5FC1E264E603600227326 /* CashFlowCollectionViewCell.xib */; };
+		FAE5FC24264E65F700227326 /* CashFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5FC23264E65F700227326 /* CashFlow.swift */; };
+		FAF3D5FF26425212003C83D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3D5FE26425212003C83D6 /* AppDelegate.swift */; };
+		FAF3D60126425212003C83D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3D60026425212003C83D6 /* SceneDelegate.swift */; };
+		FAF3D60826425214003C83D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D60726425214003C83D6 /* Assets.xcassets */; };
+		FAF3D60B26425214003C83D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D60926425214003C83D6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA3A244E26443F0E009D0CBC /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Italic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		FA3A244F26443F0E009D0CBC /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ThinItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FA3A245026443F0E009D0CBC /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Thin.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		FA3A245126443F0E009D0CBC /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBoldItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA3A245226443F0E009D0CBC /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLight.ttf"; path = "../../../../../Downloads/Poppins/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FA3A245326443F0E009D0CBC /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BoldItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FA3A245426443F0E009D0CBC /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FA3A245526443F0E009D0CBC /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLightItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FA3A245626443F0E009D0CBC /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FA3A245726443F0E009D0CBC /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-MediumItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FA3A245826443F0E009D0CBC /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBold.ttf"; path = "../../../../../Downloads/Poppins/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FA3A245926443F0E009D0CBC /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FA3A245A26443F0E009D0CBC /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BlackItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FA3A245B26443F0E009D0CBC /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA3A245C26443F0E009D0CBC /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-LightItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FA3A245D26443F0E009D0CBC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FA3A245E26443F0E009D0CBC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FA3A245F26443F0E009D0CBC /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBoldItalic.ttf"; path = "../../../../../Downloads/Poppins/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA3A24F92647DD88009D0CBC /* EmptyDataView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyDataView.xib; sourceTree = "<group>"; };
+		FA3A24FC2647DE13009D0CBC /* EmptyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataView.swift; sourceTree = "<group>"; };
+		FA806C3526550AAF00380FBB /* RupiahFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RupiahFormatter.swift; sourceTree = "<group>"; };
+		FA806C382655127400380FBB /* DateIdFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIdFormatter.swift; sourceTree = "<group>"; };
+		FA806C7A2656308900380FBB /* TransactionServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionServices.swift; sourceTree = "<group>"; };
+		FA806C7F2656312500380FBB /* TransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResponse.swift; sourceTree = "<group>"; };
+		FA8BE030264F818800F76FB7 /* Impian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impian.swift; sourceTree = "<group>"; };
+		FA8BE034264F84BB00F76FB7 /* ImpianTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpianTableViewCell.swift; sourceTree = "<group>"; };
+		FA8BE035264F84BB00F76FB7 /* ImpianTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImpianTableViewCell.xib; sourceTree = "<group>"; };
+		FA8BE03E264FB4DD00F76FB7 /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		FA8BE03F264FB4DD00F76FB7 /* TransactionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionDetailViewController.xib; sourceTree = "<group>"; };
+		FA8BE045264FB9B400F76FB7 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FA928D1D264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		FA928D1E264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTransactionTableViewCell.xib; sourceTree = "<group>"; };
+		FA928D23264ED8E000E4B0B3 /* TransactionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
+		FA9FA15526532B87001DD396 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		FA9FA1592653327B001DD396 /* ButtonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonProtocol.swift; sourceTree = "<group>"; };
+		FA9FA15E2654FA6A001DD396 /* ButtonCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCellProtocol.swift; sourceTree = "<group>"; };
+		FAAA3B1026507CE1005B2188 /* ImpianDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpianDetailViewController.swift; sourceTree = "<group>"; };
+		FAAA3B1126507CE1005B2188 /* ImpianDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImpianDetailViewController.xib; sourceTree = "<group>"; };
+		FAAA3B162650C008005B2188 /* ButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
+		FAAA3B1D2650C578005B2188 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		FAAA3B212650E82E005B2188 /* ButtonTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTag.swift; sourceTree = "<group>"; };
+		FAAA3B242650F6AA005B2188 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		FAAA3B2A26511686005B2188 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		FAAA3B2B26511686005B2188 /* AddTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTransactionViewController.xib; sourceTree = "<group>"; };
+		FAAA3B3026512435005B2188 /* HeaderWithBack.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderWithBack.xib; sourceTree = "<group>"; };
+		FAAA3B332651245B005B2188 /* HeaderWithBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderWithBack.swift; sourceTree = "<group>"; };
+		FAAA3B4126515322005B2188 /* AddImpianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImpianViewController.swift; sourceTree = "<group>"; };
+		FAAA3B4226515322005B2188 /* AddImpianViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddImpianViewController.xib; sourceTree = "<group>"; };
+		FAAA3B4926515AD7005B2188 /* EditImpianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImpianViewController.swift; sourceTree = "<group>"; };
+		FAAA3B4A26515AD7005B2188 /* EditImpianViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditImpianViewController.xib; sourceTree = "<group>"; };
+		FAAA3B512651A773005B2188 /* EditTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransactionViewController.swift; sourceTree = "<group>"; };
+		FAAA3B522651A773005B2188 /* EditTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditTransactionViewController.xib; sourceTree = "<group>"; };
+		FAE5FBE6264D5CBD00227326 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		FAE5FBE7264D5CBD00227326 /* MainTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
+		FAE5FBF3264D734300227326 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAE5FBF4264D734300227326 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FAE5FBF9264D758F00227326 /* ImpianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpianViewController.swift; sourceTree = "<group>"; };
+		FAE5FBFA264D758F00227326 /* ImpianViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImpianViewController.xib; sourceTree = "<group>"; };
+		FAE5FBFF264D75FF00227326 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FAE5FC00264D75FF00227326 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		FAE5FC0C264D803D00227326 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		FAE5FC0F264D805300227326 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FAE5FC1D264E603600227326 /* CashFlowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlowCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAE5FC1E264E603600227326 /* CashFlowCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CashFlowCollectionViewCell.xib; sourceTree = "<group>"; };
+		FAE5FC23264E65F700227326 /* CashFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlow.swift; sourceTree = "<group>"; };
+		FAF3D5FB26425212003C83D6 /* MyMonee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMonee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF3D5FE26425212003C83D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF3D60026425212003C83D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAF3D60726425214003C83D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF3D60A26425214003C83D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF3D60C26425214003C83D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF3D5F826425212003C83D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3A244D26443ECF009D0CBC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A245926443F0E009D0CBC /* Poppins-Black.ttf */,
+				FA3A245A26443F0E009D0CBC /* Poppins-BlackItalic.ttf */,
+				FA3A245D26443F0E009D0CBC /* Poppins-Bold.ttf */,
+				FA3A245326443F0E009D0CBC /* Poppins-BoldItalic.ttf */,
+				FA3A245826443F0E009D0CBC /* Poppins-ExtraBold.ttf */,
+				FA3A245F26443F0E009D0CBC /* Poppins-ExtraBoldItalic.ttf */,
+				FA3A245226443F0E009D0CBC /* Poppins-ExtraLight.ttf */,
+				FA3A245526443F0E009D0CBC /* Poppins-ExtraLightItalic.ttf */,
+				FA3A244E26443F0E009D0CBC /* Poppins-Italic.ttf */,
+				FA3A245626443F0E009D0CBC /* Poppins-Light.ttf */,
+				FA3A245C26443F0E009D0CBC /* Poppins-LightItalic.ttf */,
+				FA3A245426443F0E009D0CBC /* Poppins-Medium.ttf */,
+				FA3A245726443F0E009D0CBC /* Poppins-MediumItalic.ttf */,
+				FA3A245E26443F0E009D0CBC /* Poppins-Regular.ttf */,
+				FA3A245B26443F0E009D0CBC /* Poppins-SemiBold.ttf */,
+				FA3A245126443F0E009D0CBC /* Poppins-SemiBoldItalic.ttf */,
+				FA3A245026443F0E009D0CBC /* Poppins-Thin.ttf */,
+				FA3A244F26443F0E009D0CBC /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA3A24DB2646E022009D0CBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FBFE264D75E000227326 /* Profile */,
+				FAE5FBF8264D756000227326 /* Impian */,
+				FAAA3B0F26507C1C005B2188 /* ImpianDetail */,
+				FA8BE03D264FB3E600F76FB7 /* TransactionDetail */,
+				FAE5FBEB264D702A00227326 /* Beranda */,
+				FAE5FBDE264D567E00227326 /* MainTab */,
+				FAAA3B40265152E7005B2188 /* AddImpian */,
+				FAAA3B4826515A82005B2188 /* EditImpian */,
+				FAAA3B28265115BF005B2188 /* AddTransaction */,
+				FAAA3B29265115D0005B2188 /* EditTransaction */,
+				FAF3D60926425214003C83D6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA3A24E02646E334009D0CBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FC23264E65F700227326 /* CashFlow.swift */,
+				FA928D23264ED8E000E4B0B3 /* TransactionHistory.swift */,
+				FA8BE030264F818800F76FB7 /* Impian.swift */,
+				FA9FA15526532B87001DD396 /* UserData.swift */,
+				FA806C7F2656312500380FBB /* TransactionResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA3A24F42647CF69009D0CBC /* EmptyDataComponent */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A24F92647DD88009D0CBC /* EmptyDataView.xib */,
+				FA3A24FC2647DE13009D0CBC /* EmptyDataView.swift */,
+			);
+			path = EmptyDataComponent;
+			sourceTree = "<group>";
+		};
+		FA806C792656301A00380FBB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA806C7A2656308900380FBB /* TransactionServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA8BE039264F853000F76FB7 /* Impian */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BE034264F84BB00F76FB7 /* ImpianTableViewCell.swift */,
+				FA8BE035264F84BB00F76FB7 /* ImpianTableViewCell.xib */,
+			);
+			path = Impian;
+			sourceTree = "<group>";
+		};
+		FA8BE03A264F854000F76FB7 /* CashFlow */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FC1D264E603600227326 /* CashFlowCollectionViewCell.swift */,
+				FAE5FC1E264E603600227326 /* CashFlowCollectionViewCell.xib */,
+			);
+			path = CashFlow;
+			sourceTree = "<group>";
+		};
+		FA8BE03B264F854F00F76FB7 /* HistoryTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				FA928D1D264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.swift */,
+				FA928D1E264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.xib */,
+			);
+			path = HistoryTransaction;
+			sourceTree = "<group>";
+		};
+		FA8BE03D264FB3E600F76FB7 /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BE03E264FB4DD00F76FB7 /* TransactionDetailViewController.swift */,
+				FA8BE03F264FB4DD00F76FB7 /* TransactionDetailViewController.xib */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		FA8BE044264FB9A600F76FB7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BE045264FB9B400F76FB7 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FA8BE048264FC44800F76FB7 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B162650C008005B2188 /* ButtonView.xib */,
+				FAAA3B1D2650C578005B2188 /* ButtonView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		FA9FA15826533263001DD396 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FA1592653327B001DD396 /* ButtonProtocol.swift */,
+				FA9FA15E2654FA6A001DD396 /* ButtonCellProtocol.swift */,
+				FA806C3526550AAF00380FBB /* RupiahFormatter.swift */,
+				FA806C382655127400380FBB /* DateIdFormatter.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FAAA3B0F26507C1C005B2188 /* ImpianDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B1026507CE1005B2188 /* ImpianDetailViewController.swift */,
+				FAAA3B1126507CE1005B2188 /* ImpianDetailViewController.xib */,
+			);
+			path = ImpianDetail;
+			sourceTree = "<group>";
+		};
+		FAAA3B202650E813005B2188 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B212650E82E005B2188 /* ButtonTag.swift */,
+				FAAA3B242650F6AA005B2188 /* TransactionType.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		FAAA3B28265115BF005B2188 /* AddTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B2A26511686005B2188 /* AddTransactionViewController.swift */,
+				FAAA3B2B26511686005B2188 /* AddTransactionViewController.xib */,
+			);
+			path = AddTransaction;
+			sourceTree = "<group>";
+		};
+		FAAA3B29265115D0005B2188 /* EditTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B512651A773005B2188 /* EditTransactionViewController.swift */,
+				FAAA3B522651A773005B2188 /* EditTransactionViewController.xib */,
+			);
+			path = EditTransaction;
+			sourceTree = "<group>";
+		};
+		FAAA3B2F265123E7005B2188 /* HeaderWithBack */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B3026512435005B2188 /* HeaderWithBack.xib */,
+				FAAA3B332651245B005B2188 /* HeaderWithBack.swift */,
+			);
+			path = HeaderWithBack;
+			sourceTree = "<group>";
+		};
+		FAAA3B40265152E7005B2188 /* AddImpian */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B4126515322005B2188 /* AddImpianViewController.swift */,
+				FAAA3B4226515322005B2188 /* AddImpianViewController.xib */,
+			);
+			path = AddImpian;
+			sourceTree = "<group>";
+		};
+		FAAA3B4826515A82005B2188 /* EditImpian */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3B4926515AD7005B2188 /* EditImpianViewController.swift */,
+				FAAA3B4A26515AD7005B2188 /* EditImpianViewController.xib */,
+			);
+			path = EditImpian;
+			sourceTree = "<group>";
+		};
+		FAE5FBDE264D567E00227326 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FBE6264D5CBD00227326 /* MainTabViewController.swift */,
+				FAE5FBE7264D5CBD00227326 /* MainTabViewController.xib */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		FAE5FBEB264D702A00227326 /* Beranda */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FBF3264D734300227326 /* HomeViewController.swift */,
+				FAE5FBF4264D734300227326 /* HomeViewController.xib */,
+			);
+			path = Beranda;
+			sourceTree = "<group>";
+		};
+		FAE5FBF8264D756000227326 /* Impian */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FBF9264D758F00227326 /* ImpianViewController.swift */,
+				FAE5FBFA264D758F00227326 /* ImpianViewController.xib */,
+			);
+			path = Impian;
+			sourceTree = "<group>";
+		};
+		FAE5FBFE264D75E000227326 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FBFF264D75FF00227326 /* ProfileViewController.swift */,
+				FAE5FC00264D75FF00227326 /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FAE5FC05264D7EC600227326 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A24F42647CF69009D0CBC /* EmptyDataComponent */,
+				FAAA3B2F265123E7005B2188 /* HeaderWithBack */,
+				FA8BE048264FC44800F76FB7 /* Button */,
+				FAE5FC1C264E5FE000227326 /* Cell */,
+				FAE5FC06264D7EF800227326 /* Header */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FAE5FC06264D7EF800227326 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5FC0C264D803D00227326 /* HeaderView.xib */,
+				FAE5FC0F264D805300227326 /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		FAE5FC1C264E5FE000227326 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BE03B264F854F00F76FB7 /* HistoryTransaction */,
+				FA8BE03A264F854000F76FB7 /* CashFlow */,
+				FA8BE039264F853000F76FB7 /* Impian */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FAF3D5F226425212003C83D6 = {
+			isa = PBXGroup;
+			children = (
+				FAF3D5FD26425212003C83D6 /* MyMonee */,
+				FAF3D5FC26425212003C83D6 /* Products */,
+				FA3A244D26443ECF009D0CBC /* Fonts */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF3D5FC26425212003C83D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3D5FB26425212003C83D6 /* MyMonee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF3D5FD26425212003C83D6 /* MyMonee */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3D5FE26425212003C83D6 /* AppDelegate.swift */,
+				FAF3D60026425212003C83D6 /* SceneDelegate.swift */,
+				FA806C792656301A00380FBB /* Services */,
+				FA9FA15826533263001DD396 /* Protocol */,
+				FAAA3B202650E813005B2188 /* Constant */,
+				FA8BE044264FB9A600F76FB7 /* Helper */,
+				FAE5FC05264D7EC600227326 /* Components */,
+				FA3A24E02646E334009D0CBC /* Model */,
+				FA3A24DB2646E022009D0CBC /* Views */,
+				FAF3D60726425214003C83D6 /* Assets.xcassets */,
+				FAF3D60C26425214003C83D6 /* Info.plist */,
+			);
+			path = MyMonee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF3D5FA26425212003C83D6 /* MyMonee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF3D60F26425214003C83D6 /* Build configuration list for PBXNativeTarget "MyMonee" */;
+			buildPhases = (
+				FA806C3C265570DB00380FBB /* ShellScript */,
+				FAF3D5F726425212003C83D6 /* Sources */,
+				FAF3D5F826425212003C83D6 /* Frameworks */,
+				FAF3D5F926425212003C83D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMonee;
+			productName = MyMonee;
+			productReference = FAF3D5FB26425212003C83D6 /* MyMonee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF3D5F326425212003C83D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAF3D5FA26425212003C83D6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FAF3D5F626425212003C83D6 /* Build configuration list for PBXProject "MyMonee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF3D5F226425212003C83D6;
+			productRefGroup = FAF3D5FC26425212003C83D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF3D5FA26425212003C83D6 /* MyMonee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF3D5F926425212003C83D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3A246526443F0E009D0CBC /* Poppins-BoldItalic.ttf in Resources */,
+				FAF3D60B26425214003C83D6 /* LaunchScreen.storyboard in Resources */,
+				FA3A246926443F0E009D0CBC /* Poppins-MediumItalic.ttf in Resources */,
+				FA3A247126443F0E009D0CBC /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				FAF3D60826425214003C83D6 /* Assets.xcassets in Resources */,
+				FA8BE041264FB4DD00F76FB7 /* TransactionDetailViewController.xib in Resources */,
+				FAAA3B4426515322005B2188 /* AddImpianViewController.xib in Resources */,
+				FAE5FC20264E603600227326 /* CashFlowCollectionViewCell.xib in Resources */,
+				FAE5FBFC264D758F00227326 /* ImpianViewController.xib in Resources */,
+				FA3A246126443F0E009D0CBC /* Poppins-ThinItalic.ttf in Resources */,
+				FA3A246326443F0E009D0CBC /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FA3A246F26443F0E009D0CBC /* Poppins-Bold.ttf in Resources */,
+				FA928D20264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.xib in Resources */,
+				FA3A246426443F0E009D0CBC /* Poppins-ExtraLight.ttf in Resources */,
+				FA3A246E26443F0E009D0CBC /* Poppins-LightItalic.ttf in Resources */,
+				FAAA3B542651A773005B2188 /* EditTransactionViewController.xib in Resources */,
+				FA3A246726443F0E009D0CBC /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FA3A246826443F0E009D0CBC /* Poppins-Light.ttf in Resources */,
+				FA3A246B26443F0E009D0CBC /* Poppins-Black.ttf in Resources */,
+				FAE5FBE9264D5CBD00227326 /* MainTabViewController.xib in Resources */,
+				FAAA3B3126512435005B2188 /* HeaderWithBack.xib in Resources */,
+				FAAA3B2D26511686005B2188 /* AddTransactionViewController.xib in Resources */,
+				FA8BE037264F84BB00F76FB7 /* ImpianTableViewCell.xib in Resources */,
+				FA3A246226443F0E009D0CBC /* Poppins-Thin.ttf in Resources */,
+				FAAA3B172650C008005B2188 /* ButtonView.xib in Resources */,
+				FAE5FC02264D75FF00227326 /* ProfileViewController.xib in Resources */,
+				FA3A24FA2647DD88009D0CBC /* EmptyDataView.xib in Resources */,
+				FA3A246A26443F0E009D0CBC /* Poppins-ExtraBold.ttf in Resources */,
+				FA3A246C26443F0E009D0CBC /* Poppins-BlackItalic.ttf in Resources */,
+				FAAA3B4C26515AD7005B2188 /* EditImpianViewController.xib in Resources */,
+				FA3A246026443F0E009D0CBC /* Poppins-Italic.ttf in Resources */,
+				FA3A246626443F0E009D0CBC /* Poppins-Medium.ttf in Resources */,
+				FA3A246D26443F0E009D0CBC /* Poppins-SemiBold.ttf in Resources */,
+				FAE5FC0D264D803D00227326 /* HeaderView.xib in Resources */,
+				FA3A247026443F0E009D0CBC /* Poppins-Regular.ttf in Resources */,
+				FAE5FBF6264D734300227326 /* HomeViewController.xib in Resources */,
+				FAAA3B1326507CE1005B2188 /* ImpianDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA806C3C265570DB00380FBB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#if which swiftlint >/dev/null; then\n#  swiftlint\n#else\n#  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF3D5F726425212003C83D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9FA15626532B87001DD396 /* UserData.swift in Sources */,
+				FAE5FC10264D805300227326 /* HeaderView.swift in Sources */,
+				FAAA3B2C26511686005B2188 /* AddTransactionViewController.swift in Sources */,
+				FAE5FBFB264D758F00227326 /* ImpianViewController.swift in Sources */,
+				FAAA3B4326515322005B2188 /* AddImpianViewController.swift in Sources */,
+				FAAA3B342651245B005B2188 /* HeaderWithBack.swift in Sources */,
+				FAE5FC24264E65F700227326 /* CashFlow.swift in Sources */,
+				FA8BE031264F818800F76FB7 /* Impian.swift in Sources */,
+				FA9FA15A2653327B001DD396 /* ButtonProtocol.swift in Sources */,
+				FA806C802656312500380FBB /* TransactionResponse.swift in Sources */,
+				FAAA3B532651A773005B2188 /* EditTransactionViewController.swift in Sources */,
+				FAAA3B1E2650C578005B2188 /* ButtonView.swift in Sources */,
+				FA928D1F264ED0B200E4B0B3 /* HistoryTransactionTableViewCell.swift in Sources */,
+				FA3A24FD2647DE13009D0CBC /* EmptyDataView.swift in Sources */,
+				FA806C7B2656308900380FBB /* TransactionServices.swift in Sources */,
+				FAE5FBF5264D734300227326 /* HomeViewController.swift in Sources */,
+				FAE5FC01264D75FF00227326 /* ProfileViewController.swift in Sources */,
+				FAAA3B4B26515AD7005B2188 /* EditImpianViewController.swift in Sources */,
+				FA806C3626550AAF00380FBB /* RupiahFormatter.swift in Sources */,
+				FAE5FBE8264D5CBD00227326 /* MainTabViewController.swift in Sources */,
+				FAAA3B252650F6AA005B2188 /* TransactionType.swift in Sources */,
+				FA8BE040264FB4DD00F76FB7 /* TransactionDetailViewController.swift in Sources */,
+				FAF3D5FF26425212003C83D6 /* AppDelegate.swift in Sources */,
+				FAF3D60126425212003C83D6 /* SceneDelegate.swift in Sources */,
+				FAAA3B1226507CE1005B2188 /* ImpianDetailViewController.swift in Sources */,
+				FAE5FC1F264E603600227326 /* CashFlowCollectionViewCell.swift in Sources */,
+				FA806C392655127400380FBB /* DateIdFormatter.swift in Sources */,
+				FA8BE036264F84BB00F76FB7 /* ImpianTableViewCell.swift in Sources */,
+				FAAA3B222650E82E005B2188 /* ButtonTag.swift in Sources */,
+				FA9FA15F2654FA6A001DD396 /* ButtonCellProtocol.swift in Sources */,
+				FA8BE046264FB9B400F76FB7 /* Helper.swift in Sources */,
+				FA928D24264ED8E000E4B0B3 /* TransactionHistory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF3D60926425214003C83D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF3D60A26425214003C83D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF3D60D26425214003C83D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF3D60E26425214003C83D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF3D61026425214003C83D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMonee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandiri.MyMonee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF3D61126425214003C83D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMonee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandiri.MyMonee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF3D5F626425212003C83D6 /* Build configuration list for PBXProject "MyMonee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF3D60D26425214003C83D6 /* Debug */,
+				FAF3D60E26425214003C83D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF3D60F26425214003C83D6 /* Build configuration list for PBXNativeTarget "MyMonee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF3D61026425214003C83D6 /* Debug */,
+				FAF3D61126425214003C83D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF3D5F326425212003C83D6 /* Project object */;
+}
